@@ -1,4 +1,4 @@
-package com.devsuperior.hrpayroll.resources;
+package com.robsonferreir4.hrpayroll.resources;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.devsuperior.hrpayroll.entities.Payment;
-import com.devsuperior.hrpayroll.services.PaymentService;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.robsonferreir4.hrpayroll.entities.Payment;
+import com.robsonferreir4.hrpayroll.services.PaymentService;
 
 @RestController
 @RequestMapping(value = "/payments")
