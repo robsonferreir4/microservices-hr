@@ -1,4 +1,4 @@
-package com.devsuperior.hrpayroll;
+package com.robsonferreir4.hrpayroll;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
