@@ -1,4 +1,4 @@
-package com.robsonferreir4.resources;
+package com.robsonferreir4.hrworker.resources;
 
 import java.util.List;
 
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.robsonferreir4.entities.Worker;
-import com.robsonferreir4.repositories.WorkerRepository;
+import com.robsonferreir4.hrworker.entities.Worker;
+import com.robsonferreir4.hrworker.repositories.WorkerRepository;
 
 //@RefreshScope
 @RestController

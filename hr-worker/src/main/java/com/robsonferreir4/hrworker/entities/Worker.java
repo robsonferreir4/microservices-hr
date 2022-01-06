@@ -1,4 +1,4 @@
-package com.robsonferreir4.entities;
+package com.robsonferreir4.hrworker.entities;
 
 import java.io.Serializable;
 
